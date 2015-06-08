@@ -7,9 +7,8 @@
 アカウント
 ============================================*/
 div#account {
-	float:right;
 	height:0px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
-	padding:0px 0px 0px 30px;		/*見出し内容の位置調整*/
+	padding:0px 0px 0px 0px;		/*見出し内容の位置調整*/
 	font-size: 150%;
 	font-family:Comic Sans MS;	/*フォントの種類*/
 }
@@ -21,27 +20,30 @@ li#sign_up {
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
 	background-position: 100% 0%;
+	width:100px; height:50px;
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:none;
+	float:right;
 }
 
 li#sign_in {
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
 	background-position: 100% 0%;
+	width:100px; height:50px;
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:none;
+	float:right;
 }
 
 li#cart {
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
 	background-position: 100% 0%;
+	width:100px; height:50px;
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:none;
+	float:right;
 }
 
 	a{text-decoration:none;}
@@ -85,15 +87,15 @@ li#menu01,li#menu02,li#menu03 {
 
 /*ボタン01～05にはそれぞれ異なる背景画像を指定する*/
 li#menu01 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("Button_Earphone.gif");	/*背景画像*/
 }
 li#menu02 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("Button_Headphone.gif");	/*背景画像*/
 }
 li#menu03 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("Button_Mp3player.gif");	/*背景画像*/
 }
 ul#menu a {
@@ -150,21 +152,19 @@ ul#submenu_body li a:hover {
 }
 
 /*============================================
-ニュース（中央カラム）
+中央カラム
 ============================================*/
-div#center {
-
-}
-div#new_product {
+div#Signin {
 	width:390px; margin-right:5px; padding-top:10px; /*幅の指定と位置調整*/
 	float:left;
 }
 
-div#new_product_header h3 {
+div#Signin_header h2 {
+	float:none;
 	line-height: 10px;
 }
 
-div#new_product_body {
+div#Signin_body {
 	float:left;
 }
 
@@ -204,26 +204,6 @@ div#chumoku_body {
 	float:left;
 }
 hr {height:1px; border:solid 1px #ff0080; margin-bottom:3px;}
-
-/*============================================
-ピックアップ（右カラム）
-============================================*/
-div#foundation {
-	width:150px; padding-top:10px; 		/*幅の指定と位置調整*/
-	float:right;				/*カラムを右寄せにする*/
-	background-image:url("images/bar_pickup.gif");	/*右カラムの背景画像*/
-	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
-}
-div#foundation ul {
-	margin-left:10px; 		/*左マージンを10px空ける*/
-	font-size:90%;			/*フォントサイズを90%にする*/
-}
-div#foundation li {
-	list-style-type:none; 		/*リストマーカー無しにする*/
-	line-height:1.8;		/*行の高さを1.8倍にする*/
-}
-
-
 
 /*============================================
 スタッフ

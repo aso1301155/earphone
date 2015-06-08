@@ -7,56 +7,31 @@
 アカウント
 ============================================*/
 div#account {
-	height:0px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
-	padding:0px 0px 0px 30px;		/*見出し内容の位置調整*/
+	float:right;
+	height:10px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
+	padding:0px 0px 0px 0px;		/*見出し内容の位置調整*/
 	font-size: 150%;
 	font-family:Comic Sans MS;	/*フォントの種類*/
 }
 
-
-
-
-li#sign_up {
+li#sign_up,li#sign_in,li#cart {
+	float:left;
 	list-style-type:none;		/*リストマーカー無しにする*/
-	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
-	background-position: 100% 0%;
-	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
-	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:right;
 }
 
-li#sign_in {
-	list-style-type:none;		/*リストマーカー無しにする*/
-	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
-	background-position: 100% 0%;
-	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
-	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:right;
-}
-
-li#cart {
-	list-style-type:none;		/*リストマーカー無しにする*/
-	background-image:url("Button_sign_in.gif");	/*ヘッダ部分の背景画像*/
-	background-position: 100% 0%;
-	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
-	background-color:#97eacf;		/*ヘッダ部分の背景色*/
-	float:right;
-}
-
-	a{text-decoration:none;}
 /*============================================
 ヘッダ
 ============================================*/
 div#header {
 	height:100px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
-	background-image:url("gtya-mu.png");	/*ヘッダ部分の背景画像*/
-	background-position: 30% 0%;
+	background-image:url("../photo/gtya-mu.png");	/*ヘッダ部分の背景画像*/
+	background-position: 40% 0%;
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#97eacf;		/*ヘッダ部分の背景色*/
 }
 h1 {
 	color: #0080ff;
-	padding:10px 0px 0px 30px;		/*見出し内容の位置調整*/
+	padding:10px 0px 0px 20px;		/*見出し内容の位置調整*/
 	font-size: 400%;
 	font-family:Comic Sans MS;	/*フォントの種類*/
 }
@@ -84,16 +59,16 @@ li#menu01,li#menu02,li#menu03 {
 
 /*ボタン01～05にはそれぞれ異なる背景画像を指定する*/
 li#menu01 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
-	background-image:url("Button_Earphone.gif");	/*背景画像*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	background-image:url("../photo/Button_Earphone.gif");	/*背景画像*/
 }
 li#menu02 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
-	background-image:url("Button_Headphone.gif");	/*背景画像*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	background-image:url("../photo/Button_Headphone.gif");	/*背景画像*/
 }
 li#menu03 {
-	width:510px; height:42px;	/*背景画像に合わせたサイズ指定*/
-	background-image:url("Button_Mp3player.gif");	/*背景画像*/
+	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
+	background-image:url("../photo/Button_Mp3player.gif");	/*背景画像*/
 }
 ul#menu a {
 	display:block;				/*リンクをブロック表示にする*/
@@ -117,7 +92,7 @@ div#submenu {
 
 div#submenu_header h2 {
 	width:135px; height:30px ; padding:4px 0px 0px 0px;
-	background-image:url("Button_Headphone.gif");
+	background-image:url("../photo/Button_Headphone.gif");
 	background-repeat:no-repeat; background-position:top;
 	background-color:#cccccc;
 	font-size:90%; font-weight:bold; text-align:center;
@@ -126,9 +101,7 @@ div#submenu_header h2 {
 
 /*サブメニューのボディ部分（余白調整・背景画像・背景色）*/
 ul#submenu_body {
-	padding:6px 6px 6px 6px;
-	background-image:url("images/bg_submenu_footer.gif");
-	background-repeat:no-repeat; background-position:bottom;
+	padding:3px 1px 3px 1px;
 	background-color:#cccccc;
 	float:left;
 }
@@ -149,23 +122,23 @@ ul#submenu_body li a:hover {
 }
 
 /*============================================
-中央カラム
+ニュース（中央カラム）
 ============================================*/
-div#Signin {
+div#center {
+
+}
+div#new_product {
 	width:390px; margin-right:5px; padding-top:10px; /*幅の指定と位置調整*/
 	float:left;
 }
 
-div#Signin_header h2 {
-	float:none;
+div#new_product_header h3 {
 	line-height: 10px;
 }
 
-div#Signin_body {
+div#new_product_body {
 	float:left;
 }
-
-hr {height:1px; border:solid 1px #8000ff; margin-bottom:3px;}
 
 /*============================================
 売れ筋製品（中央カラム）
@@ -183,8 +156,6 @@ div#top_product_body {
 	float:left;
 }
 
-hr {height:1px; border:solid 1px #8000ff; margin-bottom:3px;}
-
 /*============================================
 注目製品！！（中央カラム）
 ============================================*/
@@ -200,27 +171,7 @@ div#chumoku_header h3 {
 div#chumoku_body {
 	float:left;
 }
-hr {height:1px; border:solid 1px #ff0080; margin-bottom:3px;}
-
-/*============================================
-ピックアップ（右カラム）
-============================================*/
-div#foundation {
-	width:150px; padding-top:10px; 		/*幅の指定と位置調整*/
-	float:right;				/*カラムを右寄せにする*/
-	background-image:url("images/bar_pickup.gif");	/*右カラムの背景画像*/
-	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
-}
-div#foundation ul {
-	margin-left:10px; 		/*左マージンを10px空ける*/
-	font-size:90%;			/*フォントサイズを90%にする*/
-}
-div#foundation li {
-	list-style-type:none; 		/*リストマーカー無しにする*/
-	line-height:1.8;		/*行の高さを1.8倍にする*/
-}
-
-
+hr {width: 380px; height:1px; border:solid 1px #ff0080;}
 
 /*============================================
 スタッフ
@@ -228,11 +179,19 @@ div#foundation li {
 div#STAFF {
 	width:150px;
 	height:40px;
+
 	margin:0px 4px 0px 4px;		/*サブメニュー項目のマージン*/
 	padding:2px 0px 2px 7px; 		/*幅の指定と位置調整*/
-	position:absolute; bottom:40px; left:10px;
+	position:relative; bottom:200px; left:40px;
 }
 
+div#STAFF_header {
+
+}
+
+div#STAFF_body {
+	background-color:#80ffff;
+}
 /*============================================
 フッタ
 ============================================*/

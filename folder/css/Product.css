@@ -172,24 +172,6 @@ div#chumoku {
 hr {height:1px; border:solid 1px #ff0080; margin-bottom:3px;}
 
 /*============================================
-ピックアップ（右カラム）
-============================================*/
-div#foundation {
-	width:150px; padding-top:10px; 		/*幅の指定と位置調整*/
-	float:right;				/*カラムを右寄せにする*/
-	background-image:url("images/bar_pickup.gif");	/*右カラムの背景画像*/
-	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
-}
-div#foundation ul {
-	margin-left:10px; 		/*左マージンを10px空ける*/
-	font-size:90%;			/*フォントサイズを90%にする*/
-}
-div#foundation li {
-	list-style-type:none; 		/*リストマーカー無しにする*/
-	line-height:1.8;		/*行の高さを1.8倍にする*/
-}
-
-/*============================================
 フッタ
 ============================================*/
 div#STAFF {
