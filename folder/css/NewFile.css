@@ -84,7 +84,7 @@ ul#menu a {
 div#submenu {
 	width:160px;			/*幅の指定*/
 	margin:10px 10px 10px 25px;	/*位置調整（IE6のバグに注意）*/
-	display:inline;			/*IE6のマージン算出のバグ対策*/
+	display:inline;			/*IE6のマージン算出のバグ対策*/display:inline;			/*IE6のマージン算出のバグ対策*/
 	float:left;			/*サブメニューのカラムを左寄せにする*/
 }
 
@@ -174,31 +174,58 @@ div#chumoku_body {
 hr {width: 380px; height:1px; border:solid 1px #ff0080;}
 
 /*============================================
-スタッフ
+Sign In（中央カラム）
 ============================================*/
-div#STAFF {
-	width:150px;
-	height:40px;
-
-	margin:0px 4px 0px 4px;		/*サブメニュー項目のマージン*/
-	padding:2px 0px 2px 7px; 		/*幅の指定と位置調整*/
-	position:relative; bottom:200px; left:40px;
+div#SignIn {
+	width:390px;
+	height:100px;
+	margin:5px 5px 10px 10px;
+	padding:7px 0px 10px 0px; /*幅の指定と位置調整*/
+	float:left;
+	font-size:210%;
+	font-weight:bold;
+	position:relative; left:300px;
 }
 
-div#STAFF_header {
-
+div#SignIn_header h3 {
+	line-height: 10px;
 }
 
-div#STAFF_body {
-	background-color:#80ffff;
+div#SignIn_body {
+
 }
+hr {width: 380px; height:1px; border:solid 1px #ff0080;}
+
+/*============================================
+Sign Up（中央カラム）
+============================================*/
+div#SignUp {
+	width:390px;
+	height:100px;
+	margin:5px 5px 10px 10px;
+	padding:7px 0px 10px 0px; /*幅の指定と位置調整*/
+	float:left;
+	font-size:100%;
+	font-weight:bold;
+	position:relative; left:300px;
+}
+
+div#SignUp_header h3 {
+	line-height: 10px;
+}
+
+div#SignUp_body {
+
+}
+hr {width: 380px; height:1px; border:solid 1px #ff0080;}
+
 /*============================================
 フッタ
 ============================================*/
 div#footer {
 	height:70px; text-align:center;
 	clear:both;					/*回り込みを解除する*/
-	background-image:url("Sample_footer.jpg");	/*フッタ部分の背景画像*/
+	background-image:url("../photo/Sample_footer.jpg");	/*フッタ部分の背景画像*/
 	background-position: 50% 70%;
 	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
 	background-color:#ffcce6;			/*フッタ部分の背景色*/
