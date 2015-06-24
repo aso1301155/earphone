@@ -263,6 +263,40 @@ ul#mypage_body {
 }
 
 /*============================================
+カート
+============================================*/
+div#cart {
+
+}
+div#cart_header {
+
+}
+ul#cart_body {
+	display:inline;			/*リスト項目をインライン表示にする*/
+	list-style-type:none;		/*リストマーカー無しにする*/
+}
+
+li#price {
+	float:left;
+	position:relative; left:600px;
+}
+
+li#kosu {
+	float:left;
+	position:relative; left:800px;
+}
+
+hr#cart_keisen {
+	position:relative; left:0px;
+	width: 1100px; height:1px; border:solid 1px #400080;
+}
+
+A#price {
+	position:relative; left:600px;
+}
+
+
+/*============================================
 フッタ
 ============================================*/
 div#footer {
