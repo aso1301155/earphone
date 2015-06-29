@@ -66,16 +66,20 @@
 	<!-- サブメニュー（左カラム） -->
 	<div id="cart">
 		<div id="cart_header"><h2>商品内訳</h2></div>
-		<Table Border>
+		<Table Border="1" Border Width="700" Height="500" align="left">
  			<Tr>
- 			<Td>購入</Td><Td>カートに追加した商品</Td><Td>単価</Td><td>注文個数</td><td>削除</td></Tr>
+ 			<Th>購入</Th><Th>カートに追加した商品</Th><Th>単価</Th><th>注文個数</th><th>削除</th>
+ 			</Tr>
+
  			<Tr>
 			<td align="center">
       		<input id="check_item[0]" type="checkbox" name="check_item[0]" value="true"  checked="checked" >
   			</td>
-  			<td>
+
+  			<Td Align="center" Valign="middle">
   			<A id=price Href="Product.html" Target="_blank">
 			<img src="../photo/SHE9710.jpg" Align="left" alt="SHE9710" Border="0" width="200" height="155" /></A>
+			SHE9710
   			</td>
 
 			<td>
@@ -120,11 +124,11 @@
 
 			<td width="40" bgcolor="#ffffff" nowrap align="center">
     		<font size="-1">
-          	<a href=""><img src="" border="0" width="50" height="21" vspace="5"></a>
+          	<a href=""><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
         	</font>
   			</td>
+  			</Tr>
 
-			</Tr>
 			<Tr>
 			<td align="center">
       		<input id="check_item[0]" type="checkbox" name="check_item[0]" value="true"  checked="checked" >
@@ -170,6 +174,12 @@
                  <option value="29">29</option>
                  <option value="30">30</option>
             </select>
+  			</td>
+
+  			<td width="40" bgcolor="#ffffff" nowrap align="center">
+    		<font size="-1">
+          	<a href=""><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
+        	</font>
   			</td>
 			</Tr>
  		</Table>
