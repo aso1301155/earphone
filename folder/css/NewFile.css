@@ -365,6 +365,30 @@ div#shiharai_body {
 }
 
 /*============================================
+お支払方法の確認
+============================================*/
+div#taikai {
+	width:390px;
+	height:100px;
+	margin:5px 5px 10px 10px;
+	padding:7px 0px 10px 0px; /*幅の指定と位置調整*/
+	float:left;
+	font-size:100%;
+	font-weight:bold;
+	position:relative; left:300px;
+}
+
+div#taikai_header {
+	font-size:110%;
+	font-weight:bold;
+	color:#000000;
+}
+
+div#taikai_body {
+
+}
+
+/*============================================
 フッタ
 ============================================*/
 div#footer {
