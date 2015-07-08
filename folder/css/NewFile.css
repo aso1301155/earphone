@@ -2,7 +2,15 @@
 /*============================================
 全般的なスタイル
 ============================================*/
+* {
+	margin:0; padding:0; 	/*全要素のマージン・パディングをリセット*/
+	line-height:1.5;	/*全要素の行の高さを1.5倍にする*/
+}
 
+div#pagebody {
+	width:1500px; margin:0 auto;	/*内容全体をセンタリング*/
+	text-align:left;	/*テキストの配置を左揃えにする*/
+}
 /*============================================
 アカウント
 ============================================*/
@@ -10,13 +18,26 @@ div#account {
 	float:right;
 	height:10px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
 	padding:0px 0px 0px 0px;		/*見出し内容の位置調整*/
+
 	font-size: 150%;
 	font-family:Comic Sans MS;	/*フォントの種類*/
 }
+img#sign_up {
+	position:relative;
+	right:20px;
+	top:40px;
+}
 
-li#sign_up,li#sign_in,li#cart {
-	float:left;
-	list-style-type:none;		/*リストマーカー無しにする*/
+img#sign_in{
+	position:relative;
+	right:20px;
+	top:40px;
+}
+
+img#cart{
+	position:relative;
+	right:20px;
+	top:40px;
 }
 
 /*============================================
@@ -25,9 +46,10 @@ li#sign_up,li#sign_in,li#cart {
 div#header {
 	height:100px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
 	background-image:url("../photo/gtya-mu.png");	/*ヘッダ部分の背景画像*/
-	background-position: 40% 0%;
+	background-position: 500px 0px;
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#97eacf;		/*ヘッダ部分の背景色*/
+	z-index:0;
 }
 h1 {
 	color: #0080ff;
@@ -47,30 +69,37 @@ div#select {
 /*============================================
 メインメニュー
 ============================================*/
-ul#menu {
-	height:42px; background-color:#ffffff; font-weight:bold;
-}
-li#menu01,li#menu02,li#menu03 {
-	float:left;			/*リスト項目を横に並べる*/
+#menu {
+1	height:42px;
+	background-color:#ffffff;
+	font-weight:bold;
 	display:inline;			/*リスト項目をインライン表示にする*/
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-repeat:no-repeat; 	/*背景画像を繰り返さない*/
 }
 
 /*ボタン01～05にはそれぞれ異なる背景画像を指定する*/
-li#menu01 {
+#menu01 {
 	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("../photo/Button_Earphone.gif");	/*背景画像*/
+	position:relative;
+	left:75px;
 }
-li#menu02 {
+#menu02 {
 	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("../photo/Button_Headphone.gif");	/*背景画像*/
+	position:relative;
+	left:525px;
+	bottom:46px;
 }
-li#menu03 {
+#menu03 {
 	width:450px; height:42px;	/*背景画像に合わせたサイズ指定*/
 	background-image:url("../photo/Button_Mp3player.gif");	/*背景画像*/
+	position:relative;
+	left:975px;
+	bottom:92px;
 }
-ul#menu a {
+#menu a {
 	display:block;				/*リンクをブロック表示にする*/
 	height:42px; padding-top:4px; text-align:center;
 	text-decoration:none; 			/*リンクの下線を無くす*/
@@ -84,26 +113,25 @@ ul#menu a {
 div#submenu {
 	width:160px;			/*幅の指定*/
 	margin:10px 10px 10px 25px;	/*位置調整（IE6のバグに注意）*/
-	display:inline;			/*IE6のマージン算出のバグ対策*/display:inline;			/*IE6のマージン算出のバグ対策*/
+	position:relative; right:25px;
+	display:inline;			/*IE6のマージン算出のバグ対策*/			/*IE6のマージン算出のバグ対策*/
 	float:left;			/*サブメニューのカラムを左寄せにする*/
 }
 
 /*サブメニューのヘッダ部分（余白調整・背景画像・背景色・文字サイズなど）*/
 
 div#submenu_header h2 {
-	width:135px; height:30px ; padding:4px 0px 0px 0px;
+	width:160px; height:30px ; padding:4px 0px 0px 0px;
 	background-image:url("../photo/Button_Headphone.gif");
 	background-repeat:no-repeat; background-position:top;
 	background-color:#cccccc;
 	font-size:90%; font-weight:bold; text-align:center;
-	float:left;
 }
 
 /*サブメニューのボディ部分（余白調整・背景画像・背景色）*/
 ul#submenu_body {
 	padding:3px 1px 3px 1px;
 	background-color:#cccccc;
-	float:left;
 }
 ul#submenu_body li {
 	font-size:100%;			/*文字サイズを90%にする*/
@@ -122,14 +150,11 @@ ul#submenu_body li a:hover {
 }
 
 /*============================================
-ニュース（中央カラム）
+新製品紹介（中央カラム）
 ============================================*/
-div#center {
-
-}
 div#new_product {
 	width:390px; margin-right:5px; padding-top:10px; /*幅の指定と位置調整*/
-	float:left;
+	float:right;
 }
 
 div#new_product_header h3 {
@@ -137,7 +162,7 @@ div#new_product_header h3 {
 }
 
 div#new_product_body {
-	float:left;
+	float:right;
 }
 
 /*============================================
@@ -145,7 +170,7 @@ div#new_product_body {
 ============================================*/
 div#top_product {
 	width:390px; margin-right:5px; padding-top:10px; /*幅の指定と位置調整*/
-	float:left;
+	float:right;
 }
 
 div#top_product_header h3 {
@@ -153,7 +178,7 @@ div#top_product_header h3 {
 }
 
 div#top_product_body {
-	float:left;
+	float:right;
 }
 
 /*============================================
@@ -161,7 +186,7 @@ div#top_product_body {
 ============================================*/
 div#chumoku {
 	width:390px; margin-right:5px; padding-top:10px; /*幅の指定と位置調整*/
-	float:left;
+	float:right;
 }
 
 div#chumoku_header h3 {
@@ -170,6 +195,10 @@ div#chumoku_header h3 {
 
 div#chumoku_body {
 	float:left;
+}
+
+#chumoku_product a{
+	padding_top:30px;
 }
 hr {width: 380px; height:1px; border:solid 1px #ff0080;}
 
