@@ -317,7 +317,14 @@ hr#from_keisen {
 製品詳細
 ============================================*/
 div#product {
-
+	width:390px;
+	height:100px;
+	margin:5px 5px 10px 10px;
+	padding:7px 0px 10px 0px; /*幅の指定と位置調整*/
+	float:left;
+	font-size:100%;
+	font-weight:bold;
+	position:relative; left:300px;
 }
 
 div#product_header {
@@ -334,10 +341,9 @@ p#maker {
 	width:100px; height:30px;
 	background-image:url("../photo/maker.gif");
 	background-repeat:no-repeat;
-	position:relative; left:200px;
 }
 p#product_neme {
-	float:left;
+	float:none;
 }
 
 /*============================================
