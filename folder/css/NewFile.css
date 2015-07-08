@@ -159,6 +159,7 @@ div#new_product {
 
 div#new_product_header h3 {
 	line-height: 10px;
+	padding-bottom:10px;
 }
 
 div#new_product_body {
@@ -175,6 +176,7 @@ div#top_product {
 
 div#top_product_header h3 {
 	line-height: 10px;
+	padding-bottom:10px;
 }
 
 div#top_product_body {
@@ -191,6 +193,7 @@ div#chumoku {
 
 div#chumoku_header h3 {
 	line-height: 10px;
+	padding-bottom:10px;
 }
 
 div#chumoku_body {
