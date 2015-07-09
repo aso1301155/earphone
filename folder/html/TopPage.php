@@ -15,7 +15,7 @@
 	</div>
 
 	<!-- ヘッダ -->
-	<div id="header"><h1><a href="TopPage.html">Audio Yamauchi</a></h1>
+	<div id="header"><h1><a href="TopPage.php">Audio Yamauchi</a></h1>
 	</div>
 
 	<!-- 検索 -->
