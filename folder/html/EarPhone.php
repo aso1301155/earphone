@@ -65,15 +65,15 @@
 
 		<ol id="earphone_body">
 			<li id="all">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A><h3>すべてのイヤホン</h3>
 			<hr></li>
 			<li id="canal">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A><h3>カナル型</h3>
 			<hr></li>
 			<li id="inner">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A><h3>インナーイヤー</h3>
 			<hr></li>
 		</ol>

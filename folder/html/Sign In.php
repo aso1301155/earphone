@@ -66,7 +66,7 @@
 		<div id=SignIn_header><h2>Sign In</h2></div>
 		<div id=SignIn_body>
 		<hr>
-		<form action="Mypage.html" method="post">
+		<form action="Mypage.php" method="post">
     	　　　　　ID　:　<input type="text" name="id" size=25><br>
     	<br>
     	パスワード　:　<input type="text" name="pass" size=23><br>

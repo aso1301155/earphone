@@ -66,7 +66,7 @@
 		<div id="taikai_header"><h2>退会設定</h2></div>
 		<div id="taikai_body">
 		<p>アカウントを破棄しますか？</p>
-		<form action="Taikai_Comment.html" method="post">
+		<form action="Taikai_Commentphp" method="post">
 		了承する<input type="radio" name="from" value="了承する">
 		了承しない<input type="radio" name="from" value="了承しない" checked="checked"><br>
 		<input type="submit" name="name" value="確定">

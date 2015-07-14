@@ -66,7 +66,7 @@
 		<div id="from_header"><h2>住所入力</h2></div>
 		<div id="from_body">
 		<p>お届け先の住所を入力して下さい。</p>
-		<form action="Shiharai_Settei.html" method="post">
+		<form action="Shiharai_Settei.php" method="post">
 		住所:既定の住所を選択<input type="radio" name="from" text="既定の住所を選択"><br>
 		<hr id=from_keisen><br><br>
     		 新規で住所を選択<input type="radio" name="from" text="新規で住所を選択"><br>

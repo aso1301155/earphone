@@ -67,7 +67,7 @@
 		<p>サイトでは、安全性などの観点から代金引換のみとなっております。<br>
 		了承いただけますか？<br>
 		(了承していただけない場合、当サイトで購入することは実質不可となります。)</p>
-		<form action="Order.html" method="post">
+		<form action="Order.php" method="post">
 		了承する<input type="radio" name="from" text="了承する">
 		了承しない<input type="radio" name="from" text="了承しない"><br>
 		<input type="submit" name="name" value="確定">

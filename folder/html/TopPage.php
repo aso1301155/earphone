@@ -70,15 +70,15 @@
 		<hr>
 		<ol id="new_product_body">
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 		</ol>
@@ -91,15 +91,15 @@
 		<hr>
 		<ol id="top_product_body">
 			<li>
-			<A Href="Product.php Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 		</ol>
@@ -112,17 +112,17 @@
 		<hr>
 		<ol id="chumoku_body">
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			メーカー：oriolus 製品名：oriolus
 			<img src="../photo/oriolus.jpg" alt="oriolus" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			メーカー：SONY 製品名：MDR-1A
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.php" Target="_blank">
+			<A Href="Product.php">
 			メーカー：PHILIPS 製品名：SHE9710
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>

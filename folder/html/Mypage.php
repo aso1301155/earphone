@@ -65,11 +65,11 @@
 	<div id="mypage">
 		<div id="mypage_header"><h2>マイページ</h2></div>
 		<ul id="mypage_body">
-			<li><a href="Okiniiri.html">お気に入り商品</a></li>
-			<li><a href="Chumon_Hukureki.html">注文履歴</a></li>
-			<li><a href="Account_Settei.html">アカウント設定</a></li>
-			<li><a href="Shiharai_Settei.html">支払設定</a></li>
-			<li><a href="Taikai_Settei.html">退会設定</a></li>
+			<li><a href="Okiniiri.php">お気に入り商品</a></li>
+			<li><a href="Chumon_Hukureki.php">注文履歴</a></li>
+			<li><a href="Account_Settei.php">アカウント設定</a></li>
+			<li><a href="Shiharai_Settei.php">支払設定</a></li>
+			<li><a href="Taikai_Settei.php">退会設定</a></li>
 
 		</ul>
 	</div>

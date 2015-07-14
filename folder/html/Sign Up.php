@@ -66,7 +66,7 @@
 		<div id=SignUp_header><h2>Sign Up</h2></div>
 		<div id=SignUp_body>
 		<hr>
-		<form action="Mypage.html" method="post">
+		<form action="Mypage.php" method="post">
     	mail:　<input type="text" name="id" size=25><br>
     	<br>
     	パスワード:　<input type="text" name="pass" size=23><br>

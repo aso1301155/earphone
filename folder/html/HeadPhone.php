@@ -65,20 +65,19 @@
 
 		<ol id="earphone_body">
 			<li id="all">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SR-507.jpg" alt="SR-507" Border="0" width="200" height="155" /></A><h3>すべてのイヤホン</h3>
 			<hr></li>
 			<li id="canal">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A><h3>カナル型</h3>
 			<hr></li>
 			<li id="inner">
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php">
 			<img src="../photo/SkullCandy Crusher MIC2.jpg" alt="SkullCandy Crusher MIC2" Border="0" width="200" height="155" /></A><h3>インナーイヤー</h3>
 			<hr></li>
 
 		</ol>
-		</div>
 
 	<!-- フッタ -->
 	<div id="footer"><address>Copyright (c) HTMQ All Rights Reserved.</address></div>

@@ -67,15 +67,15 @@
 		<hr>
 		<ol id="news_product_body">
 			<li>
-			<A Href="SHE9710.html" Target="_blank">
+			<A Href="SHE9710.php">
 			<img src="SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="SHE9710.html" Target="_blank">
+			<A Href="SHE9710.php">
 			<img src="MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="SHE9710.html" Target="_blank">
+			<A Href="SHE9710.php">
 			<img src="SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 		</ol>

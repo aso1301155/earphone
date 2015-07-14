@@ -75,7 +75,7 @@
   			</td>
 
   			<Td Align="center" Valign="middle">
-  			<A id=price Href="Product.html" Target="_blank">
+  			<A id=price Href="Product.php">
 			<img src="../photo/SHE9710.jpg" Align="left" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			SHE9710
   			</td>

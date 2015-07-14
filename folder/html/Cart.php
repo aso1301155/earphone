@@ -75,7 +75,7 @@
   			</td>
 
   			<Td Align="center" Valign="middle">
-  			<A id=price Href="Product.html" Target="_blank">
+  			<A id=price Href="Product.php" Target="_blank">
 			<img src="../photo/SHE9710.jpg" Align="left" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			SHE9710
   			</td>
@@ -122,7 +122,7 @@
 
 			<td width="40" bgcolor="#ffffff" nowrap align="center">
     		<font size="-1">
-          	<a href=""><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
+          	<a href="Product.php"><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
         	</font>
   			</td>
   			</Tr>
@@ -132,7 +132,7 @@
       		<input id="check_item[0]" type="checkbox" name="check_item[0]" value="true"  checked="checked" >
   			</td>
 			<Td>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</Td>
 			<td>
@@ -176,13 +176,13 @@
 
   			<td width="40" bgcolor="#ffffff" nowrap align="center">
     		<font size="-1">
-          	<a href=""><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
+          	<a href="Product.php"><img src="../photo/Button_Delete.gif" border="0" width="50" height="21" vspace="5"></a>
         	</font>
   			</td>
 			</Tr>
  		</Table>
 
- 		<form action="From.html" method="post">
+ 		<form action="From.php" method="post">
 		<input type="submit" name="submit" value="レジに進む">
 		</form>
 

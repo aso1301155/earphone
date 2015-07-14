@@ -73,7 +73,7 @@
 			ターボバス孔を採用したカナル型ヘッドホン
 			</p>
 			<p id=money>￥1,990
-			<form action="Cart.html" method="post">
+			<form action="Cart.php" method="post">
 			<input type="submit" name="name" value="カートに入れる">
 			</form>
 
