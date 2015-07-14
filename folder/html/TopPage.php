@@ -9,9 +9,9 @@
 <?php ?><div id="pagebody">
 	<!-- アカウント -->
 	<div id="account">
-		<a href="Sign Up.html"><img id=sign_up src="../photo/Button_Sign_Up.gif" alt="Sign Up"></a>
-		<a href="Sign In.html"><img id=sign_in src="../photo/Button_Sign_In.gif" alt="Sign In"></a>
-		<a href="Cart.html"><img id=cart src="../photo/Cart.gif" alt="Cart"></a>
+		<a href="Sign Up.php"><img id=sign_up src="../photo/Button_Sign_Up.gif" alt="Sign Up"></a>
+		<a href="Sign In.php"><img id=sign_in src="../photo/Button_Sign_In.gif" alt="Sign In"></a>
+		<a href="Cart.php"><img id=cart src="../photo/Cart.gif" alt="Cart"></a>
 	</div>
 
 	<!-- ヘッダ -->
@@ -33,31 +33,31 @@
 
 	<!-- メインメニュー -->
 	<div id="menu">
-		<a id="menu01" href="EarPhone.html">イヤホン</a>
-		<a id="menu02" href="HeadPhone.html">ヘッドホン</a>
-		<a id="menu03" href="AnyThing.html">その他</a>
+		<a id="menu01" href="EarPhone.php">イヤホン</a>
+		<a id="menu02" href="HeadPhone.php">ヘッドホン</a>
+		<a id="menu03" href="AnyThing.php">その他</a>
 	</div>
 
 	<!-- サブメニュー（左カラム） -->
 	<div id="submenu">
 		<div id="submenu_header"><h2>メーカーで探す</h2></div>
 		<ul id="submenu_body">
-			<li><a href="Company.html">SONY</a></li>
-			<li><a href="Company.html">audio-technica</a></li>
-			<li><a href="Company.html">JVC</a></li>
-			<li><a href="Company.html">sennheiser</a></li>
-			<li><a href="Company.html">ELECOM</a></li>
-			<li><a href="Company.html">SHURE</a></li>
-			<li><a href="Company.html">BOSE</a></li>
-			<li><a href="Company.html">AKG</a></li>
-			<li><a href="Company.html">westone</a></li>
-			<li><a href="Company.html">Astrotec</a></li>
-			<li><a href="Company.html">pioneer</a></li>
-			<li><a href="Company.html">GRADO</a></li>
-			<li><a href="Company.html">beyerdynamic</a></li>
-			<li><a href="Company.html">ULTRASONE</a></li>
-			<li><a href="Company.html">PHILIPS</a></li>
-			<li><a href="Company.html">Panasonic</a></li>
+			<li><a href="Company.php">SONY</a></li>
+			<li><a href="Company.php">audio-technica</a></li>
+			<li><a href="Company.php">JVC</a></li>
+			<li><a href="Company.php">sennheiser</a></li>
+			<li><a href="Company.php">ELECOM</a></li>
+			<li><a href="Company.php">SHURE</a></li>
+			<li><a href="Company.php">BOSE</a></li>
+			<li><a href="Company.php">AKG</a></li>
+			<li><a href="Company.php">westone</a></li>
+			<li><a href="Company.php">Astrotec</a></li>
+			<li><a href="Company.php">pioneer</a></li>
+			<li><a href="Company.php">GRADO</a></li>
+			<li><a href="Company.php">beyerdynamic</a></li>
+			<li><a href="Company.php">ULTRASONE</a></li>
+			<li><a href="Company.php">PHILIPS</a></li>
+			<li><a href="Company.php">Panasonic</a></li>
 		</ul>
 	</div>
 
@@ -70,15 +70,15 @@
 		<hr>
 		<ol id="new_product_body">
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 		</ol>
@@ -91,15 +91,15 @@
 		<hr>
 		<ol id="top_product_body">
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php Target="_blank">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
 		</ol>
@@ -112,17 +112,17 @@
 		<hr>
 		<ol id="chumoku_body">
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			メーカー：oriolus 製品名：oriolus
 			<img src="../photo/oriolus.jpg" alt="oriolus" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			メーカー：SONY 製品名：MDR-1A
 			<img src="../photo/MDR-1A.jpg" alt="MDR-1A" Border="0" width="200" height="155" /></A>
 			</li>
 			<li>
-			<A Href="Product.html" Target="_blank">
+			<A Href="Product.php" Target="_blank">
 			メーカー：PHILIPS 製品名：SHE9710
 			<img src="../photo/SHE9710.jpg" alt="SHE9710" Border="0" width="200" height="155" /></A>
 			</li>
