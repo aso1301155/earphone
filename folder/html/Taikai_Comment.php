@@ -8,9 +8,9 @@
 
  </HEAD>
 
- <BODY>
+<?php ?> <BODY>
  アカウントを削除しました。
 ３秒後に トップページ に変わります。<BR>
- </BODY>
+<?php ?> </BODY>
 
  </HTML>
