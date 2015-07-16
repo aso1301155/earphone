@@ -39,6 +39,16 @@ img#cart{
 	right:20px;
 	top:40px;
 }
+img#mypage{
+	position:relative;
+	right:20px;
+	top:40px;
+}
+img#sign_out{
+	position:relative;
+	right:20px;
+	top:40px;
+}
 
 /*============================================
 ヘッダ
