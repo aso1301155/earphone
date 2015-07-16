@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../css/NewFile.css" type="text/css">
 </head>
 <body>
-<?php ?><div id="pagebody">
+<div id="pagebody">
 	<!-- アカウント -->
 	<div id="account">
 		<a href="Sign Up.php"><img id=sign_up src="../photo/Button_Sign_Up.gif" alt="Sign Up"></a>
@@ -67,9 +67,9 @@
 		<div id=SignIn_body>
 		<hr>
 		<form action="Mypage.php" method="post">
-    	　　　　　ID　:　<input type="text" name="id" size=25><br>
+    	　　　　　ID　:　<input type="text" name="id" size=25 value="1301165@st.asojuku.ac.jp"><br>
     	<br>
-    	パスワード　:　<input type="text" name="pass" size=23><br>
+    	パスワード　:　<input type="text" name="pass" size=23 value="audioyamauchi"><br>
     	<input type="submit" value="Sign In">
 		</form>
 		<hr>
