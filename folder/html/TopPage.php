@@ -1,7 +1,6 @@
 ﻿<?php
 
 session_start();
-$name = $_SESSION['name'];
 
 ?>
 
@@ -17,7 +16,7 @@ $name = $_SESSION['name'];
 	<!-- アカウント -->
 	<div id="account">
 	<?php
-	if(!$name){
+	if(!isset($_SESSION['name'])){
 	?>
 		<a href="Sign Up.php"><img id=sign_up src="../photo/Button_Sign_Up.gif" alt="Sign Up"></a>
 		<a href="Sign In.php"><img id=sign_in src="../photo/Button_Sign_In.gif" alt="Sign In"></a>
@@ -25,7 +24,7 @@ $name = $_SESSION['name'];
 	}else{
 	?>
 		<a href="Mypage.php"><img id=mypage src="../photo/Button_Mypage.gif" alt="My Page"></a>
-		<a href="TopPage.php"><img id=sign_out src="../photo/Button_Sign_out.gif" alt="Sign Out"></a>
+		<a href="logout.php"><img id=sign_out src="../photo/Button_Sign_out.gif" alt="Sign Out"></a>
 	<?php
 	}
 	?>

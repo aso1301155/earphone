@@ -35,7 +35,7 @@ if(!$name){
 	<!-- アカウント -->
 	<div id="account">
 		<a href="Mypage.php"><img id=mypage src="../photo/Button_Mypage.gif" alt="My Page"></a>
-		<a href="TopPage.php"><img id=sign_out src="../photo/Button_Sign_out.gif" alt="Sign Out"></a>
+		<a href="logout.php"><img id=sign_out src="../photo/Button_Sign_out.gif" alt="Sign Out"></a>
 		<a href="Cart.php"><img id=cart src="../photo/Cart.gif" alt="Cart"></a>
 	</div>
 

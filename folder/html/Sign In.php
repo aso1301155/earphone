@@ -67,7 +67,7 @@
 		<div id=SignIn_body>
 		<hr>
 		<form action="Mypage.php" method="post">
-    	　　　　　ID　:　<input type="text" name="id" size=25 value="1301165@st.asojuku.ac.jp"><br>
+    	　　　　　ID　:　<input required type="text" name="id" size=25 value="1301165@st.asojuku.ac.jp"><br>
     	<br>
     	パスワード　:　<input type="text" name="pass" size=23 value="audioyamauchi"><br>
     	<input type="submit" value="Sign In">
