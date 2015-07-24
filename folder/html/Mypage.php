@@ -31,7 +31,7 @@ if(!$name){
 <link rel="stylesheet" href="../css/NewFile.css" type="text/css">
 </head>
 <body>
-<?php ?><div id="pagebody">
+<div id="pagebody">
 	<!-- アカウント -->
 	<div id="account">
 		<a href="Mypage.php"><img id=mypage src="../photo/Button_Mypage.gif" alt="My Page"></a>

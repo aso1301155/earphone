@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,12 +11,23 @@
 <link rel="stylesheet" href="../css/NewFile.css" type="text/css">
 </head>
 <body>
-<?php ?><div id="pagebody">
+<div id="pagebody">
 	<!-- アカウント -->
 	<div id="account">
+	<?php
+	if(!isset($_SESSION['name'])){
+	?>
 		<a href="Sign Up.php"><img id=sign_up src="../photo/Button_Sign_Up.gif" alt="Sign Up"></a>
 		<a href="Sign In.php"><img id=sign_in src="../photo/Button_Sign_In.gif" alt="Sign In"></a>
-		<a href="Cart.php"><img id=cart src="../photo/Cart.gif" alt="Cart"></a>
+	<?php
+	}else{
+	?>
+		<a href="Mypage.php"><img id=mypage src="../photo/Button_Mypage.gif" alt="My Page"></a>
+		<a href="logout.php"><img id=sign_out src="../photo/Button_Sign_out.gif" alt="Sign Out"></a>
+	<?php
+	}
+	?>
+	<a href="Cart.php"><img id=cart src="../photo/Cart.gif" alt="Cart"></a>
 	</div>
 
 	<!-- ヘッダ -->
